@@ -1,0 +1,33 @@
+body {
+    background-color: #EF7722;
+}
+.btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #0BA6DF;
+    color: #EBEBEB;
+}
+.container {
+    background-color: #FAA533;
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+    padding: 10px;
+    flex-direction: column;
+}
+.row {
+    display: flex;
+    gap: 10px;
+}
+.cell {
+    background-color: #EBEBEB;
+    font-size: 30px;
+    color: #16476A;
+    display: flex;;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    aspect-ratio: 1 / 1;
+}
